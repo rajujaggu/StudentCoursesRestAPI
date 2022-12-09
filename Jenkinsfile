@@ -15,7 +15,7 @@ pipeline{
             steps{ 
                 sh "docker image build -t studentcoursestep1:1.0 ."
                 sh "docker image tag studentcoursestep1:1.0 rajreddy999"
-                sh "docker image push"
+                sh "docker image push rajreddy999"
             }
         }
 }
