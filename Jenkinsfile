@@ -13,7 +13,7 @@ pipeline{
         }
         stage ('imagebuild'){
             steps{ 
-                sh "docker image build -t studentcoursestep1:1.0"
+                sh "docker image build -t studentcoursestep1:1.0 ."
             }
         }
 }
